@@ -25,7 +25,7 @@ export default function Home() {
   setInterval(createBubble, 300);
 
   return (
-    <div className="flex flex-col justify-center items-center bg-[url('src/img/ECOBUZZLANDING.png')] bg-cover text-center h-screen overflow-hidden">
+    <div className="flex flex-col justify-center items-center bg-[url('./img/ECOBUZZLANDING.png')] bg-cover text-center h-screen overflow-hidden">
       <section />
     </div>
   );
